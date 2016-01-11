@@ -15,14 +15,15 @@ module.exports = function(grunt) {
       options: {
         separator: ';'
       },
-      scripts: {
-        src: ['dist/js/jquery/dist/*.js', 
+      js: {
+        src: ['dist/js/jquery/dist/*.**', 
               'dist/js/angular/*.js',
+              'dist/js/angular-ui-router/release/*.**',
               'dist/js/*.js/',
-              'dist/js/controllers/*.**',
-              'dist/js/services/*.**'],
+              'dist/js/services/*.**',
+              'dist/js/controllers/*.**'],
 
-        dest: 'dist/js/concat.js'
+        dest: 'js/concat.js'
       },
       css: {
         src: ['dist/css/app.css'],
@@ -49,7 +50,7 @@ module.exports = function(grunt) {
     },
 
     clean: {
-      js: ["dist/js/*", "!dist/js/*.min.js"],
+      js: ["dist/js/*", "!dist/js/concat.js"],
       css: ["dist/css/*", "!dist/css/*.min.css"]
     },
 
@@ -75,8 +76,8 @@ module.exports = function(grunt) {
       gruntfile: {
         src: 'Gruntfile.js'
       },
-      lib_test: {
-        src: ['**']
+      src_js: {
+        src: ['js/*.js']
       }
     },
     qunit: {
@@ -103,7 +104,7 @@ module.exports = function(grunt) {
 
           {expand: true, 
             cwd: 'bower_components/',
-            src: ['angular/angular.min.js', 'jquery/dist/jquery.min.js'],
+            src: ['angular/angular.js', 'jquery/dist/jquery.js', 'angular-ui-router/release/*.js'],
             dest: 'dist/js',
             filter: 'isFile'},
 

@@ -1,0 +1,17 @@
+<div class="cardHolder">
+  <div class="col-sm-6 col-xs-12 col-md-4" ng-repeat="item in allData.items">
+    <div class="card card-block">
+      
+      <div class="imgCrop">
+    		<img src="img/{{item.image}}">
+    	</div>
+    
+    	<div class="textWrap">
+    	  <h3 class="card-title">{{item.full_name}}</h3>
+
+      <div ui-view></div>
+    	  <a ui-sref="/main.details" class="Btn btn btn-success">Open Details</a>
+  		</div>
+    </div>
+  </div>
+  
