@@ -1,0 +1,83 @@
+{"items":[
+    {  
+        "id":1,
+        "full_name":"Jay-Z",
+        "age": 45,
+        "job":"Rapper",
+        "net_worth":"$1,000,000",
+        "image":"jay-z.jpg"
+    },
+    {  
+        "id":2,
+        "full_name":"Mike Myers",
+        "age": 52,
+        "job":"Actor",
+        "net_worth":"$1,525,000",
+        "image":"mike-myers.jpg"
+    },
+    {  
+        "id":3,
+        "full_name":"Kanye West",
+        "age": 38,
+        "job":"Rapper",
+        "net_worth":"$2,000,000",
+        "image":"Kanye.jpg"
+    },
+    {  
+        "id":4,
+        "full_name":"Louis CK",
+        "age": 48,
+        "job":"Comedian",
+        "net_worth":"$500,000",
+        "image":"louis-ck.jpg"
+    },
+    {  
+        "id":5,
+        "full_name":"Pierce Brosnan",
+        "age": 62,
+        "job":"Actor",
+        "net_worth":"$300,500",
+        "image":"Pierce-brosnan.jpg"
+    },
+    {  
+        "id":6,
+        "full_name":"Morgan Freeman",
+        "age": 78,
+        "job":"Rapper",
+        "net_worth":"$2,543,455",
+        "image":"morgan-freeman.jpg"
+    },
+    {  
+        "id":7,
+        "full_name":"Denzel Washington",
+        "age": 60,
+        "job":"Actor",
+        "net_worth":"$500,000",
+        "image":"denzel-washington.jpg"
+    },
+    {  
+        "id":8,
+        "full_name":"Wayne Gretzky",
+        "age": 54,
+        "job":"Hockey Player",
+        "net_worth":"$1,243,111",
+        "image":"wayne-gretzky.jpg"
+    },
+    {  
+        "id":9,
+        "full_name":"James Franco",
+        "age": 37,
+        "job":"Film Actor",
+        "net_worth":"$1,050,000",
+        "image":"james-franco.jpg"
+    },
+    {  
+        "id":10,
+        "full_name":"Seth Rogen",
+        "age": 33,
+        "job":"Film Actor",
+        "net_worth":"$1,100,000",
+        "image":"seth-rogen.jpg"
+    }
+]
+}
